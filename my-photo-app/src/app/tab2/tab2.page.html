@@ -20,7 +20,7 @@
   <ion-grid>
     <ion-col>
       <ion-row size="3" *ngFor="let photo of photoService.photos; index as position" >
-        <ion-img [src]="photo.webviewPath"></ion-img>
+        <ion-img [src]="photo.webviewPath" style="width: 500px; margin-left: 32%;"></ion-img>
       </ion-row>
     </ion-col>  
   </ion-grid>
